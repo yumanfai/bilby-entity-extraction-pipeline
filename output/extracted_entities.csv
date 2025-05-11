@@ -1,1 +1,734 @@
 document_id,entity_type,entity_text,start_pos,end_pos,score,is_matched,matched_entity_id,matched_entity_name
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Shenzhen,42,50,0.9547879099845886,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Company,Alibaba Group,93,106,0.9531984925270081,1,Alibaba Group,Alibaba Group
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Shenzhen,178,186,0.9688826203346252,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Person,Jack Ma,320,327,0.8728622794151306,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Person,President Xi,640,652,0.912348747253418,1,Xi Jinping,Xi Jinping
+31c78232-df85-4d16-877e-80ef9a25214a,Location,China,703,708,0.6342189311981201,1,China,China
+31c78232-df85-4d16-877e-80ef9a25214a,Location,China,828,833,0.6538026332855225,1,China,China
+31c78232-df85-4d16-877e-80ef9a25214a,Person,Premier Li Qiang,866,882,0.7311121225357056,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Shenzhen,1014,1022,0.962753415107727,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Person,Prime Minister,1114,1128,0.618777871131897,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Greater Bay Area,1221,1237,0.6910480260848999,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Person,Daniel Zhang,1276,1288,0.8348896503448486,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Company,Alibaba,1452,1459,0.7322226166725159,1,Alibaba Group,Alibaba Group
+31c78232-df85-4d16-877e-80ef9a25214a,Company,Tencent Holdings,1595,1611,0.9275313019752502,1,Tencent Holdings,Tencent Holdings
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Shenzhen,1661,1669,0.9627695083618164,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Company,Alibaba,1875,1882,0.8135427832603455,1,Alibaba Group,Alibaba Group
+31c78232-df85-4d16-877e-80ef9a25214a,Person,Minister Jin Zhuanglong,2054,2077,0.7442266941070557,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Beijing,2138,2145,0.9329756498336792,1,Beijing,Beijing
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Shanghai,2147,2155,0.9404372572898865,1,Shanghai,Shanghai
+31c78232-df85-4d16-877e-80ef9a25214a,Location,Pearl River Delta region,2241,2265,0.8483458757400513,0,,
+31c78232-df85-4d16-877e-80ef9a25214a,Company,Huawei,2299,2305,0.8802034258842468,1,Huawei Technologies,Huawei Technologies
+31c78232-df85-4d16-877e-80ef9a25214a,Location,China,2332,2337,0.5877668857574463,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,Beijing,41,48,0.8754457831382751,1,Beijing,Beijing
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,China,105,110,0.5724878907203674,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,Premier Li Qiang,336,352,0.8428454995155334,0,,
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,China,560,565,0.5781619548797607,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,Premier Li,636,646,0.623712956905365,1,Li Qiang,Li Qiang
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,Great Hall of the People,689,713,0.7105623483657837,0,,
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,Prime Minister,719,733,0.5662927627563477,0,,
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,President Xi,774,786,0.8899073004722595,1,Xi Jinping,Xi Jinping
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,China,848,853,0.647362470626831,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,Wang Yi,899,906,0.7795805335044861,1,Wang Yi,Wang Yi
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,China,1009,1014,0.5533060431480408,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Company,Huawei Technologies,1505,1524,0.9776743054389954,1,Huawei Technologies,Huawei Technologies
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,Beijing,1653,1660,0.938412070274353,1,Beijing,Beijing
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,Greater Bay Area,1669,1685,0.7932375073432922,0,,
+34d31f06-ed93-49b7-8260-3eab48a780bf,Person,Ren Zhengfei,1691,1703,0.832140326499939,0,,
+34d31f06-ed93-49b7-8260-3eab48a780bf,Company,Huawei,1719,1725,0.7005813717842102,1,Huawei Technologies,Huawei Technologies
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,China,1837,1842,0.5106803178787231,1,China,China
+34d31f06-ed93-49b7-8260-3eab48a780bf,Company,Alibaba Group,1885,1898,0.9653429388999939,1,Alibaba Group,Alibaba Group
+34d31f06-ed93-49b7-8260-3eab48a780bf,Location,Shanghai,2145,2153,0.8579758405685425,1,Shanghai,Shanghai
+34d31f06-ed93-49b7-8260-3eab48a780bf,Company,Alibaba,2184,2191,0.6219090223312378,1,Alibaba Group,Alibaba Group
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,37,44,0.963703453540802,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Li Qiang,62,70,0.8667423129081726,1,Li Qiang,Li Qiang
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,imperial city,151,164,0.616033136844635,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Xi Jinping,220,230,0.9336107969284058,1,Xi Jinping,Xi Jinping
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,293,300,0.9641379117965698,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Wang Yi,373,380,0.8756226897239685,1,Wang Yi,Wang Yi
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shanghai,460,468,0.9618008732795715,1,Shanghai,Shanghai
+521477c9-902e-4f32-9afd-c6704bb0ff27,Company,Huawei Technologies,524,543,0.9873164892196655,1,Huawei Technologies,Huawei Technologies
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shenzhen,549,557,0.9536911249160767,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Greater Bay Area,601,617,0.9379588961601257,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Ren Zhengfei,623,635,0.8014065623283386,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Company,Huawei,645,651,0.8899355530738831,1,Huawei Technologies,Huawei Technologies
+521477c9-902e-4f32-9afd-c6704bb0ff27,Company,Alibaba Group,714,727,0.973514974117279,1,Alibaba Group,Alibaba Group
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Hangzhou,733,741,0.9206624031066895,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Yangtze River Delta,796,815,0.963249683380127,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Eddie Yongming Wu,849,866,0.5461797714233398,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Company,Alibaba,875,882,0.8010616898536682,1,Alibaba Group,Alibaba Group
+521477c9-902e-4f32-9afd-c6704bb0ff27,Company,China State Construction,936,960,0.8440364599227905,1,China State Construction Engineering Corporation,China State Construction Engineering Corporation
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,966,973,0.9701799154281616,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shanghai,1019,1027,0.9707260727882385,1,Shanghai,Shanghai
+521477c9-902e-4f32-9afd-c6704bb0ff27,Person,Wang Xiangming,1038,1052,0.54791659116745,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,1121,1128,0.9630917310714722,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shanghai,1188,1196,0.9726732969284058,1,Shanghai,Shanghai
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shenzhen,1201,1209,0.9629225730895996,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Greater Bay Area,1215,1231,0.9156806468963623,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Yangtze River Delta,1236,1255,0.9409926533699036,0,,
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,1333,1340,0.9527909755706787,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Beijing,1459,1466,0.9625945091247559,1,Beijing,Beijing
+521477c9-902e-4f32-9afd-c6704bb0ff27,Location,Shanghai,1498,1506,0.9652541875839233,1,Shanghai,Shanghai
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,Beijing,37,44,0.7356513738632202,1,Beijing,Beijing
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,Great Hall of the People,311,335,0.7368213534355164,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,China,339,344,0.7148088216781616,1,China,China
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,China,416,421,0.6725733876228333,1,China,China
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,General Secretary Xi,455,475,0.7707573175430298,1,Xi Jinping,Xi Jinping
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Chinese President,712,729,0.6369672417640686,1,Xi Jinping,Xi Jinping
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Core Leader,742,753,0.5038574934005737,1,Xi Jinping,Xi Jinping
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Premier Li Qiang,877,893,0.7567185759544373,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Prime Minister,1146,1160,0.6542102098464966,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Foreign Minister Wang,1466,1487,0.8063780665397644,1,Wang Yi,Wang Yi
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Wang Yi,1555,1562,0.7917093634605408,1,Wang Yi,Wang Yi
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Jack Ma,1654,1661,0.5328759551048279,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,Indonesia,1878,1887,0.7819326519966125,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Location,Vietnam,1892,1899,0.7729201912879944,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Company,BABA,1901,1905,0.8431207537651062,1,Alibaba Group,Alibaba Group
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Person,Daniel Zhang,1912,1924,0.8338060975074768,0,,
+762b0c9d-b11b-49f9-ba2a-263339bf36bd,Company,Pony Ma's company,2033,2050,0.7717258334159851,0,,
+29c5fd85-64b9-4e36-b349-cb72e320420e,Location,Beijing,40,47,0.7784668803215027,1,Beijing,Beijing
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Premier Li,561,571,0.9088691473007202,1,Li Qiang,Li Qiang
+29c5fd85-64b9-4e36-b349-cb72e320420e,Location,Great Hall of the People,612,636,0.8377276659011841,0,,
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Prime Minister,642,656,0.850243330001831,0,,
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Li Qiang,827,835,0.8220476508140564,1,Li Qiang,Li Qiang
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Core Leader,968,979,0.5822262763977051,1,Xi Jinping,Xi Jinping
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,President Xi,1242,1254,0.9406332969665527,1,Xi Jinping,Xi Jinping
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Chinese President,1284,1301,0.5393335223197937,1,Xi Jinping,Xi Jinping
+29c5fd85-64b9-4e36-b349-cb72e320420e,Location,major urban centers,1741,1760,0.567402184009552,0,,
+29c5fd85-64b9-4e36-b349-cb72e320420e,Person,Jack Ma,2292,2299,0.9001160264015198,0,,
+29c5fd85-64b9-4e36-b349-cb72e320420e,Company,Alibaba,2341,2348,0.9596371054649353,1,Alibaba Group,Alibaba Group
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,0,5,0.5521325469017029,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Beijing,37,44,0.8654085993766785,1,Beijing,Beijing
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,221,226,0.672218382358551,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Person,President Xi Jinping,298,318,0.8788655400276184,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,525,530,0.6330209970474243,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Person,President Xi,606,618,0.6934801340103149,1,Xi Jinping,Xi Jinping
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Great Hall of the People,659,683,0.769209086894989,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,744,749,0.6121857762336731,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Person,Foreign Minister Wang Yi,830,854,0.6997674107551575,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,963,968,0.5668191313743591,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Beijing,1121,1128,0.9033194184303284,1,Beijing,Beijing
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,China,1130,1135,0.562688410282135,1,China,China
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Company,Huawei Technologies,1403,1422,0.9765496253967285,1,Huawei Technologies,Huawei Technologies
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Shenzhen-based,1428,1442,0.5592137575149536,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Yangtze River Delta,1518,1537,0.8879787921905518,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Greater Bay Area,1542,1558,0.8235464692115784,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Person,Ren Zhengfei,1564,1576,0.633030891418457,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Company,Huawei,1612,1618,0.5289914608001709,1,Huawei Technologies,Huawei Technologies
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Company,Alibaba Group,1733,1746,0.9573050141334534,1,Alibaba Group,Alibaba Group
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Hangzhou-based,1752,1766,0.6472499966621399,0,,
+4890e499-a594-4dfd-8b1f-ef5ae2341e36,Location,Hangzhou,1982,1990,0.8067441582679749,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Beijing,40,47,0.6721794605255127,1,Beijing,Beijing
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,China,117,122,0.5338743925094604,1,China,China
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Premier Li Qiang,370,386,0.8822683095932007,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Premier Li,668,678,0.6066403388977051,1,Li Qiang,Li Qiang
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Great Hall of the People,721,745,0.681000292301178,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Prime Minister,751,765,0.6433442234992981,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Shenzhen-based,1027,1041,0.7350538969039917,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Company,Alibaba Group,1158,1171,0.9696725606918335,1,Alibaba Group,Alibaba Group
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Eddie Yongming Wu,1184,1201,0.6017864346504211,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Company,Tencent Holdings,1402,1418,0.9550303220748901,1,Tencent Holdings,Tencent Holdings
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Shenzhen,1748,1756,0.9334695339202881,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Shanghai,1887,1895,0.9668818712234497,1,Shanghai,Shanghai
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Hong Kong,1900,1909,0.8917872309684753,1,Hong Kong,Hong Kong
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Shanghai,1911,1919,0.9360385537147522,1,Shanghai,Shanghai
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Gong Zheng,1926,1936,0.7355764508247375,0,,
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Location,Shanghai,2104,2112,0.9267913103103638,1,Shanghai,Shanghai
+041958dd-c8c9-41e2-ba0f-5c5dd2955b04,Person,Foreign Minister,2242,2258,0.7263567447662354,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Beijing,44,51,0.9009131789207458,1,Beijing,Beijing
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Person,President Xi Jinping,297,317,0.8587749600410461,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,337,342,0.696739912033081,1,China,China
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Great Hall of the People,598,622,0.7217813730239868,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Person,President Xi,624,636,0.7022119164466858,1,Xi Jinping,Xi Jinping
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,774,779,0.6946203112602234,1,China,China
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Person,Wang Yi,829,836,0.803266704082489,1,Wang Yi,Wang Yi
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,947,952,0.5876405835151672,1,China,China
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,1058,1063,0.5177733898162842,1,China,China
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Company,Huawei Technologies,1347,1366,0.9623386859893799,1,Huawei Technologies,Huawei Technologies
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Shenzhen-based,1421,1435,0.5096255540847778,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Person,Ren Zhengfei,1461,1473,0.842226505279541,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Beijing,1605,1612,0.9237294793128967,1,Beijing,Beijing
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Greater Bay Area,1621,1637,0.7614855766296387,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,1702,1707,0.5247913002967834,1,China,China
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Company,Tencent Holdings,1723,1739,0.9402756690979004,1,Tencent Holdings,Tencent Holdings
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Person,Ma Huateng,1899,1909,0.6462234258651733,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,Shenzhen,1974,1982,0.8531965613365173,0,,
+e74ece14-b964-4a4e-a529-e323e6b6cbe6,Location,China,2082,2087,0.5976444482803345,1,China,China
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,Beijing,40,47,0.7157493233680725,1,Beijing,Beijing
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Premier Li Qiang,292,308,0.8352679014205933,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Premier Li,607,617,0.6290327906608582,1,Li Qiang,Li Qiang
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,Great Hall of the People,660,684,0.7545201778411865,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Prime Minister,690,704,0.5411423444747925,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,President Xi,742,754,0.8877630233764648,1,Xi Jinping,Xi Jinping
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,China,778,783,0.5200780630111694,1,China,China
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Wang Yi,861,868,0.7843580842018127,1,Wang Yi,Wang Yi
+c40af5e3-585f-4401-9250-4a637d66d4df,Company,Alibaba Group,1465,1478,0.9819414615631104,1,Alibaba Group,Alibaba Group
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Eddie Yongming Wu,1649,1666,0.6157273054122925,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Company,Alibaba,1682,1689,0.8322119116783142,1,Alibaba Group,Alibaba Group
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,Yangtze River Delta,1767,1786,0.8793315291404724,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Company,Tencent Holdings,1875,1891,0.9430117011070251,1,Tencent Holdings,Tencent Holdings
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,Shenzhen-based,1897,1911,0.7240194082260132,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Person,Ma Huateng,2049,2059,0.6538139581680298,0,,
+c40af5e3-585f-4401-9250-4a637d66d4df,Location,Shenzhen,2126,2134,0.8553227782249451,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Shanghai,37,45,0.93860924243927,1,Shanghai,Shanghai
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Shanghai,138,146,0.9576886892318726,1,Shanghai,Shanghai
+2e93946c-0c34-477f-8797-23cd6f666664,Location,China,218,223,0.5959748029708862,1,China,China
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Premier Li Qiang,291,307,0.8467109799385071,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Location,China,522,527,0.587186872959137,1,China,China
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Premier Li,637,647,0.6335117220878601,1,Li Qiang,Li Qiang
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Shanghai World Expo Center,692,718,0.8636054992675781,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Prime Minister,724,738,0.5614767074584961,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Person,President Xi,777,789,0.8871367573738098,1,Xi Jinping,Xi Jinping
+2e93946c-0c34-477f-8797-23cd6f666664,Location,China,860,865,0.5301364660263062,1,China,China
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Wang Yi,923,930,0.8194574117660522,1,Wang Yi,Wang Yi
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Yangtze River Delta,1387,1406,0.888719379901886,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Greater Bay Area,1408,1424,0.8286798000335693,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Beijing,1430,1437,0.9347623586654663,1,Beijing,Beijing
+2e93946c-0c34-477f-8797-23cd6f666664,Company,Alibaba Group,1439,1452,0.969607949256897,1,Alibaba Group,Alibaba Group
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Eddie Yongming Wu,1621,1638,0.5252541303634644,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Company,Alibaba,1720,1727,0.7306705713272095,1,Alibaba Group,Alibaba Group
+2e93946c-0c34-477f-8797-23cd6f666664,Company,Tencent Holdings,1811,1827,0.9437216520309448,1,Tencent Holdings,Tencent Holdings
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Ma Huateng,1965,1975,0.6566296815872192,0,,
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Shanghai,2031,2039,0.9401722550392151,1,Shanghai,Shanghai
+2e93946c-0c34-477f-8797-23cd6f666664,Location,Shanghai,2173,2181,0.9464837908744812,1,Shanghai,Shanghai
+2e93946c-0c34-477f-8797-23cd6f666664,Person,Mayor Gong Zheng,2247,2263,0.671707808971405,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Berlin,35,41,0.9675919413566589,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Olaf Scholz,65,76,0.9507592916488647,1,Olaf Scholz,Olaf Scholz
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Hauptstadt,150,160,0.800575852394104,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Frank-Walter Steinmeier,211,234,0.950019121170044,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Berlin,282,288,0.9736214876174927,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Annalena Baerbock,370,387,0.9571393132209778,1,Annalena Baerbock,Annalena Baerbock
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Hauptstadt,448,458,0.803699254989624,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Bavaria,473,480,0.902442455291748,1,Bavaria,Bavaria
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,Siemens AG,539,549,0.9431644082069397,1,Siemens AG,Siemens AG
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Roland Busch,635,647,0.6660050749778748,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,Volkswagen AG,723,736,0.9206962585449219,1,Volkswagen AG,Volkswagen AG
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,Wolfsburger Autohersteller,742,768,0.786327600479126,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,North Rhine-Westphalia,809,831,0.5485051870346069,1,North Rhine-Westphalia,North Rhine-Westphalia
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Oliver Blume,837,849,0.7716493606567383,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,BASF SE,927,934,0.9526853561401367,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,Ludwigshafener Chemieriese,940,966,0.6013224720954895,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Person,Martin Brudermüller,1014,1033,0.6777706742286682,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Company,BASF,1046,1050,0.8065769672393799,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Berlin,1105,1111,0.9747494459152222,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Munich,1161,1167,0.9293169975280762,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Düsseldorf,1172,1182,0.9343596696853638,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Bavaria,1184,1191,0.9256475567817688,1,Bavaria,Bavaria
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,NRW,1196,1199,0.7947668433189392,1,North Rhine-Westphalia,North Rhine-Westphalia
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Berlin,1306,1312,0.9607774019241333,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Hauptstadt,1453,1463,0.8189656734466553,1,Berlin,Berlin
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Munich,1468,1474,0.9261052012443542,0,,
+4ebc2f39-0d4e-4494-ad8c-1d06d914e961,Location,Frankfurt,1511,1520,0.9016054272651672,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Berlin,57,63,0.9691369533538818,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Olaf Scholz,87,98,0.9448798298835754,1,Olaf Scholz,Olaf Scholz
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Hauptstadt,184,194,0.7866803407669067,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Germany,209,216,0.6051989197731018,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Frank-Walter Steinmeier,255,278,0.9481493234634399,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Berlin,333,339,0.9738489389419556,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Annalena Baerbock,429,446,0.9487711787223816,1,Annalena Baerbock,Annalena Baerbock
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Hauptstadt,507,517,0.7884985208511353,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Bavaria,538,545,0.9466345906257629,1,Bavaria,Bavaria
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Company,Siemens AG,599,609,0.9574918150901794,1,Siemens AG,Siemens AG
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,North Rhine-Westphalia,662,684,0.8009256720542908,1,North Rhine-Westphalia,North Rhine-Westphalia
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Roland Busch,695,707,0.7373328804969788,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Company,RWE AG,776,782,0.9255252480506897,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Bavaria,840,847,0.9550385475158691,1,Bavaria,Bavaria
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Markus Krebber,876,890,0.657784104347229,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Company,RWE,902,905,0.5225648283958435,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Company,BMW Group,963,972,0.9491363167762756,1,BMW Group,BMW Group
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Münchner,978,986,0.5277247428894043,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Düsseldorf,1032,1042,0.9547901749610901,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Person,Oliver Zipse,1053,1065,0.7330388426780701,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Company,BMW,1075,1078,0.8601658344268799,1,BMW Group,BMW Group
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Berlin,1130,1136,0.9761604070663452,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Munich,1197,1203,0.9364277720451355,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Essen,1208,1213,0.893767237663269,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Bavaria,1215,1222,0.9552289843559265,1,Bavaria,Bavaria
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,NRW,1227,1230,0.8191507458686829,1,North Rhine-Westphalia,North Rhine-Westphalia
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Berlin,1336,1342,0.961985170841217,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Hauptstadt,1469,1479,0.7611663937568665,1,Berlin,Berlin
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Munich,1484,1490,0.9245108366012573,0,,
+ca2be5f7-51a0-46f6-b04f-863a06eb4d8f,Location,Frankfurt,1532,1541,0.8643895983695984,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Berlin,43,49,0.9689136147499084,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Olaf Scholz,70,81,0.9448890686035156,1,Olaf Scholz,Olaf Scholz
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Germany,111,118,0.5509995222091675,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Frank-Walter Steinmeier,226,249,0.9468310475349426,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Berlin,290,296,0.9756606221199036,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Annalena Baerbock,382,399,0.9544370174407959,1,Annalena Baerbock,Annalena Baerbock
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Hauptstadt,462,472,0.6186190247535706,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Bavaria,488,495,0.938387930393219,1,Bavaria,Bavaria
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,SAP SE,556,562,0.9506097435951233,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,North Rhine-Westphalia,633,655,0.574804425239563,1,North Rhine-Westphalia,North Rhine-Westphalia
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Christian Klein,671,686,0.7603668570518494,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,SAP,696,699,0.8778066039085388,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Germany,742,749,0.5753985047340393,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,Siemens AG,765,775,0.940436065196991,1,Siemens AG,Siemens AG
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Bavaria,850,857,0.9364664554595947,1,Bavaria,Bavaria
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Roland Busch,863,875,0.7238482236862183,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,Bertelsmann SE,944,958,0.9426289796829224,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,Gütersloher Medienriese,964,987,0.6089140176773071,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Person,Thomas Rabe,1030,1041,0.7077739238739014,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Company,Bertelsmann,1051,1062,0.5911241173744202,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Berlin,1126,1132,0.9756059050559998,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Munich,1197,1203,0.9523014426231384,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Düsseldorf,1208,1218,0.9541952610015869,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Bavaria,1220,1227,0.9433252215385437,1,Bavaria,Bavaria
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,NRW,1232,1235,0.7960778474807739,1,North Rhine-Westphalia,North Rhine-Westphalia
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Berlin,1345,1351,0.9696049690246582,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Hauptstadt,1485,1495,0.6150429248809814,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Berlin,1537,1543,0.9717237949371338,1,Berlin,Berlin
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Munich,1548,1554,0.9311684370040894,0,,
+667ad81e-0750-43b4-890b-f1b327e89a3e,Location,Frankfurt,1593,1602,0.9198687672615051,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Berlin,33,39,0.9588092565536499,1,Berlin,Berlin
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Person,Olaf Scholz,90,101,0.9315995573997498,1,Olaf Scholz,Olaf Scholz
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Company,Siemens AG,292,302,0.9635456204414368,1,Siemens AG,Siemens AG
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Company,Volkswagen AG,307,320,0.9648109078407288,1,Volkswagen AG,Volkswagen AG
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Germany,340,347,0.6686161756515503,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Person,Annalena Baerbock,440,457,0.9462578296661377,1,Annalena Baerbock,Annalena Baerbock
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Berlin,517,523,0.9605483412742615,1,Berlin,Berlin
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Bavaria,602,609,0.9258296489715576,1,Bavaria,Bavaria
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Company,Siemens,664,671,0.9435133934020996,1,Siemens AG,Siemens AG
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Person,Roland Busch,715,727,0.6700021624565125,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Company,Volkswagen,827,837,0.9317649602890015,1,Volkswagen AG,Volkswagen AG
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,North Rhine-Westphalia,935,957,0.6943665742874146,1,North Rhine-Westphalia,North Rhine-Westphalia
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Person,Oliver Blume,963,975,0.8183169364929199,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Person,Frank-Walter Steinmeier,1053,1076,0.9453221559524536,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Berlin,1163,1169,0.9455570578575134,1,Berlin,Berlin
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Munich,1258,1264,0.9234851002693176,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Düsseldorf,1269,1279,0.9471186399459839,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Bavaria,1281,1288,0.9472322463989258,1,Bavaria,Bavaria
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,NRW,1293,1296,0.8779270648956299,1,North Rhine-Westphalia,North Rhine-Westphalia
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Germany,1457,1464,0.565737247467041,0,,
+949baaa2-1278-4ea8-b180-ba48cfdddd28,Location,Berlin,1544,1550,0.9560028910636902,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Berlin,55,61,0.9622403979301453,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Person,Olaf Scholz,83,94,0.9448627829551697,1,Olaf Scholz,Olaf Scholz
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Germany,128,135,0.8256542086601257,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Person,Frank-Walter Steinmeier,240,263,0.9421443939208984,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+31f06ef2-b032-4466-9c83-314df3f95ae8,Person,Annalena Baerbock,425,442,0.9449625015258789,1,Annalena Baerbock,Annalena Baerbock
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Berlin,495,501,0.9616642594337463,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Bavaria,564,571,0.9335057735443115,1,Bavaria,Bavaria
+31f06ef2-b032-4466-9c83-314df3f95ae8,Company,Siemens AG,673,683,0.9712784886360168,1,Siemens AG,Siemens AG
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,North Rhine-Westphalia,743,765,0.9341351985931396,1,North Rhine-Westphalia,North Rhine-Westphalia
+31f06ef2-b032-4466-9c83-314df3f95ae8,Person,Roland Busch,771,783,0.7521371245384216,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Company,Volkswagen AG,855,868,0.9475041031837463,1,Volkswagen AG,Volkswagen AG
+31f06ef2-b032-4466-9c83-314df3f95ae8,Company,Wolfsburger Autohersteller,874,900,0.7403966784477234,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Bavaria,945,952,0.9558915495872498,1,Bavaria,Bavaria
+31f06ef2-b032-4466-9c83-314df3f95ae8,Person,Oliver Blume,998,1010,0.7225720286369324,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Company,VW,1019,1021,0.5492275953292847,1,Volkswagen AG,Volkswagen AG
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Germany,1061,1068,0.7698014378547668,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Company,BMW Group,1085,1094,0.9510570764541626,1,BMW Group,BMW Group
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Munich,1100,1106,0.8914300203323364,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Bayern,1160,1166,0.5627120137214661,1,Bavaria,Bavaria
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Berlin,1191,1197,0.9650166630744934,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Munich,1249,1255,0.9028722047805786,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Düsseldorf,1260,1270,0.9251079559326172,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,North Rhine-Westphalia,1272,1294,0.8777831196784973,1,North Rhine-Westphalia,North Rhine-Westphalia
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Bavaria,1299,1306,0.9603644013404846,1,Bavaria,Bavaria
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Berlin,1411,1417,0.9530678987503052,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Germany,1442,1449,0.7044985294342041,0,,
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Berlin,1554,1560,0.9561819434165955,1,Berlin,Berlin
+31f06ef2-b032-4466-9c83-314df3f95ae8,Location,Germany,1605,1612,0.5684571862220764,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Berlin,33,39,0.9612964391708374,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Olaf Scholz,61,72,0.9440332651138306,1,Olaf Scholz,Olaf Scholz
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Germany,102,109,0.6122750639915466,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Frank-Walter Steinmeier,204,227,0.9470709562301636,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Hauptstadt,253,263,0.5046946406364441,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Berlin,266,272,0.9688194990158081,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Annalena Baerbock,355,372,0.9528457522392273,1,Annalena Baerbock,Annalena Baerbock
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Hauptstadt,433,443,0.5233913660049438,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Bavaria,465,472,0.9203900694847107,1,Bavaria,Bavaria
+c8803496-2561-40b7-9e0b-57c3e884c74b,Company,SAP SE,605,611,0.9556571245193481,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,North Rhine-Westphalia,676,698,0.639640212059021,1,North Rhine-Westphalia,North Rhine-Westphalia
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Christian Klein,704,719,0.7730487585067749,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Company,SAP,729,732,0.8657681941986084,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Company,Siemens AG,803,813,0.9506380558013916,1,Siemens AG,Siemens AG
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Bavaria,900,907,0.9116775989532471,1,Bavaria,Bavaria
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Roland Busch,913,925,0.7269685864448547,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Company,Fresenius SE,989,1001,0.9488336443901062,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Company,Bad Homburger Gesundheitskonzern,1007,1039,0.7504125237464905,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Düsseldorf,1074,1084,0.9476872086524963,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Person,Stephan Sturm,1095,1108,0.7334805727005005,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Berlin,1183,1189,0.9654712677001953,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Munich,1251,1257,0.8182061910629272,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Düsseldorf,1262,1272,0.9426544308662415,0,,
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Bavaria,1274,1281,0.9244886040687561,1,Bavaria,Bavaria
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,NRW,1286,1289,0.7715423703193665,1,North Rhine-Westphalia,North Rhine-Westphalia
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Berlin,1404,1410,0.954447329044342,1,Berlin,Berlin
+c8803496-2561-40b7-9e0b-57c3e884c74b,Location,Berlin,1537,1543,0.9485797882080078,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Berlin,44,50,0.9684115052223206,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Olaf Scholz,72,83,0.9467485547065735,1,Olaf Scholz,Olaf Scholz
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Germany,113,120,0.6615839600563049,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Hauptstadt,204,214,0.6059099435806274,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Frank-Walter Steinmeier,244,267,0.9479776620864868,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Berlin,309,315,0.9706013798713684,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Annalena Baerbock,403,420,0.9537526965141296,1,Annalena Baerbock,Annalena Baerbock
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Hauptstadt,482,492,0.5942757725715637,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Bavaria,539,546,0.9265427589416504,1,Bavaria,Bavaria
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,Siemens AG,584,594,0.9540678262710571,1,Siemens AG,Siemens AG
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,North Rhine-Westphalia,661,683,0.7632303237915039,1,North Rhine-Westphalia,North Rhine-Westphalia
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Roland Busch,689,701,0.729761004447937,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,SAP SE,771,777,0.9453274607658386,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,Walldorfer Software-Riese,783,808,0.6372663378715515,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Berlin,869,875,0.9808245897293091,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Düsseldorf,880,890,0.9655328989028931,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Christian Klein,896,911,0.7232734560966492,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,SAP,923,926,0.7996644973754883,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Germany,971,978,0.6067416667938232,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,Volkswagen AG,998,1011,0.9047276973724365,1,Volkswagen AG,Volkswagen AG
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,Wolfsburger Autohersteller,1017,1043,0.7990920543670654,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Person,Oliver Blume,1082,1094,0.7049803137779236,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Company,VW,1104,1106,0.5904784202575684,1,Volkswagen AG,Volkswagen AG
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Bayern,1155,1161,0.6357656717300415,1,Bavaria,Bavaria
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Berlin,1269,1275,0.9735462665557861,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Munich,1334,1340,0.9169383645057678,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Düsseldorf,1345,1355,0.9671376943588257,0,,
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Bavaria,1357,1364,0.922919750213623,1,Bavaria,Bavaria
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,NRW,1369,1372,0.8121654987335205,1,North Rhine-Westphalia,North Rhine-Westphalia
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Berlin,1484,1490,0.9590167999267578,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Hauptstadt,1572,1582,0.5888999700546265,1,Berlin,Berlin
+e6f23105-8f3e-4264-8579-a98a56a67e22,Location,Munich,1629,1635,0.9042270183563232,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Berlin,33,39,0.9713733196258545,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Olaf Scholz,60,71,0.9457297921180725,1,Olaf Scholz,Olaf Scholz
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Hauptstadt,154,164,0.8616120219230652,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Frank-Walter Steinmeier,228,251,0.9461265802383423,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Berlin,302,308,0.9761151671409607,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Annalena Baerbock,388,405,0.953692615032196,1,Annalena Baerbock,Annalena Baerbock
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Hauptstadt,462,472,0.8292334675788879,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Bavaria,486,493,0.9434528350830078,1,Bavaria,Bavaria
+5be0369d-5a20-4038-84ed-adc244bc4c39,Company,Siemens AG,562,572,0.9488120079040527,1,Siemens AG,Siemens AG
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,North Rhine-Westphalia,629,651,0.7694850564002991,1,North Rhine-Westphalia,North Rhine-Westphalia
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Roland Busch,657,669,0.7683948278427124,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Company,Deutsche Telekom AG,739,758,0.9310012459754944,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Bavaria,812,819,0.9481697082519531,1,Bavaria,Bavaria
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Timotheus Höttges,848,865,0.7549480199813843,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Company,Hochtief AG,935,946,0.88079434633255,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Company,Essener Baukonzern,952,970,0.5571858882904053,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Düsseldorf,999,1009,0.9509584307670593,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Person,Marcelino Fernández Verdes,1020,1046,0.7618963718414307,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Berlin,1122,1128,0.9767544865608215,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Munich,1187,1193,0.938373327255249,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Essen,1198,1203,0.9069910645484924,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Bavaria,1205,1212,0.9579303860664368,1,Bavaria,Bavaria
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,NRW,1217,1220,0.8430733680725098,1,North Rhine-Westphalia,North Rhine-Westphalia
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Berlin,1336,1342,0.9639698266983032,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Hauptstadt,1468,1478,0.7950119972229004,1,Berlin,Berlin
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Munich,1483,1489,0.9385862350463867,0,,
+5be0369d-5a20-4038-84ed-adc244bc4c39,Location,Frankfurt,1536,1545,0.923281729221344,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,37,46,0.9662935733795166,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Olaf Scholz,68,79,0.9516213536262512,1,Olaf Scholz,Olaf Scholz
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Germany,107,114,0.7908610105514526,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,145,154,0.97087562084198,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Frank-Walter Steinmeier,224,247,0.952182948589325,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,300,309,0.9657407999038696,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Germany,337,344,0.7573766708374023,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Annalena Baerbock,396,413,0.959557294845581,1,Annalena Baerbock,Annalena Baerbock
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Bavaria,509,516,0.8942797780036926,1,Bavaria,Bavaria
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,Siemens AG,574,584,0.9657487869262695,1,Siemens AG,Siemens AG
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,North Rhine-Westphalia,656,678,0.7015255689620972,1,North Rhine-Westphalia,North Rhine-Westphalia
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Roland Busch,684,696,0.7329661250114441,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,SAP SE,777,783,0.955619752407074,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,Walldorfer Software-Riese,789,814,0.5577410459518433,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Berlin,869,875,0.9566001892089844,1,Berlin,Berlin
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Christian Klein,895,910,0.7074761390686035,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,SAP,919,922,0.8643975853919983,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Germany,982,989,0.5899906754493713,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,Allianz SE,992,1002,0.9437111616134644,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Münchner,1008,1016,0.5004931092262268,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Düsseldorf,1085,1095,0.9564352035522461,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Person,Oliver Bäte,1101,1112,0.6522902846336365,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Company,Allianz,1124,1131,0.6018090844154358,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,1184,1193,0.9746419787406921,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Munich,1248,1254,0.9102963209152222,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Berlin,1259,1265,0.9580448269844055,1,Berlin,Berlin
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Bavaria,1267,1274,0.9175454378128052,1,Bavaria,Bavaria
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,NRW,1279,1282,0.7724893689155579,1,North Rhine-Westphalia,North Rhine-Westphalia
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,1403,1412,0.9595586061477661,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Germany,1432,1439,0.6258266568183899,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Frankfurt,1556,1565,0.9662609696388245,0,,
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Hauptstadt,1574,1584,0.531101644039154,1,Berlin,Berlin
+ace4ee34-e145-458d-bf5e-af386e249ea0,Location,Munich,1629,1635,0.9286549687385559,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Berlin,37,43,0.9696463346481323,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Olaf Scholz,65,76,0.9397119283676147,1,Olaf Scholz,Olaf Scholz
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Germany,106,113,0.5115518569946289,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Hauptstadt,197,207,0.8593351244926453,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Frank-Walter Steinmeier,227,250,0.9426866173744202,1,Frank-Walter Steinmeier,Frank-Walter Steinmeier
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Berlin,306,312,0.9726110696792603,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Annalena Baerbock,406,423,0.9475704431533813,1,Annalena Baerbock,Annalena Baerbock
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Hauptstadt,479,489,0.8096851110458374,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Bavaria,503,510,0.9439031481742859,1,Bavaria,Bavaria
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,Siemens AG,566,576,0.9379352927207947,1,Siemens AG,Siemens AG
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,North Rhine-Westphalia,640,662,0.7278472781181335,1,North Rhine-Westphalia,North Rhine-Westphalia
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Roland Busch,668,680,0.7707099318504333,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,Volkswagen AG,757,770,0.9056078791618347,1,Volkswagen AG,Volkswagen AG
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,Wolfsburger Autohersteller,776,802,0.7638490200042725,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Bavaria,847,854,0.9600127935409546,1,Bavaria,Bavaria
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Oliver Blume,883,895,0.7661282420158386,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,VW,904,906,0.5532180070877075,1,Volkswagen AG,Volkswagen AG
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Germany,941,948,0.5515103936195374,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,Deutsche Bahn AG,968,984,0.8808250427246094,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Berliner,990,998,0.5192351341247559,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Person,Richard Lutz,1051,1063,0.7521569728851318,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Company,Deutsche Bahn,1076,1089,0.7511411905288696,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Berlin,1141,1147,0.9756105542182922,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Munich,1200,1206,0.9358267784118652,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Düsseldorf,1211,1221,0.931691586971283,0,,
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Bavaria,1223,1230,0.9563785791397095,1,Bavaria,Bavaria
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,NRW,1235,1238,0.8274623155593872,1,North Rhine-Westphalia,North Rhine-Westphalia
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Berlin,1350,1356,0.9623203277587891,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Hauptstadt,1482,1492,0.8087703585624695,1,Berlin,Berlin
+b8ffd24d-6f02-499e-8ee3-80e537b9e7cd,Location,Munich,1497,1503,0.9318345189094543,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,Washington D.C.,46,61,0.7771173715591431,1,Washington D.C.,Washington D.C.
+a4909225-0457-4a78-bf52-563f3e381362,Person,Mike Johnson,88,100,0.882315456867218,1,Mike Johnson,Mike Johnson
+a4909225-0457-4a78-bf52-563f3e381362,Person,JD Vance,238,246,0.8738977313041687,1,JD Vance,JD Vance
+a4909225-0457-4a78-bf52-563f3e381362,Location,Washington,297,307,0.8117586970329285,1,Washington D.C.,Washington D.C.
+a4909225-0457-4a78-bf52-563f3e381362,Person,Antony Blinken,387,401,0.8981307148933411,1,Antony Blinken,Antony Blinken
+a4909225-0457-4a78-bf52-563f3e381362,Location,California,485,495,0.9044990539550781,1,California,California
+a4909225-0457-4a78-bf52-563f3e381362,Company,Apple Inc.,551,561,0.9873708486557007,1,Apple Inc.,Apple Inc.
+a4909225-0457-4a78-bf52-563f3e381362,Location,Cupertino,567,576,0.8465749025344849,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Person,Tim Cook,632,640,0.8377661108970642,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Company,Apple,650,655,0.9431600570678711,1,Apple Inc.,Apple Inc.
+a4909225-0457-4a78-bf52-563f3e381362,Company,Microsoft Corporation,707,728,0.9823273420333862,1,Microsoft Corporation,Microsoft Corporation
+a4909225-0457-4a78-bf52-563f3e381362,Location,Redmond,734,741,0.707421600818634,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,New York City,788,801,0.7990665435791016,1,New York City,New York City
+a4909225-0457-4a78-bf52-563f3e381362,Person,Satya Nadella,830,843,0.7943876385688782,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Company,Microsoft,852,861,0.7105346918106079,1,Microsoft Corporation,Microsoft Corporation
+a4909225-0457-4a78-bf52-563f3e381362,Company,Boeing,917,923,0.9634648561477661,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,Chicago,929,936,0.9359657764434814,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Person,David Calhoun,986,999,0.7025996446609497,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Company,Boeing,1012,1018,0.9571794867515564,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,Washington D.C.,1072,1087,0.78125,1,Washington D.C.,Washington D.C.
+a4909225-0457-4a78-bf52-563f3e381362,Location,San Francisco,1140,1153,0.7809749245643616,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,Chicago,1158,1165,0.9336189031600952,0,,
+a4909225-0457-4a78-bf52-563f3e381362,Location,California,1167,1177,0.9302337765693665,1,California,California
+a4909225-0457-4a78-bf52-563f3e381362,Location,New York,1182,1190,0.8333772420883179,1,New York City,New York City
+a4909225-0457-4a78-bf52-563f3e381362,Location,New York,1454,1462,0.8017149567604065,1,New York City,New York City
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Washington D.C.,47,62,0.776126503944397,1,Washington D.C.,Washington D.C.
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,Mike Johnson,89,101,0.8793413639068604,1,Mike Johnson,Mike Johnson
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,JD Vance,238,246,0.8977967500686646,1,JD Vance,JD Vance
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Washington,297,307,0.8412712812423706,1,Washington D.C.,Washington D.C.
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,Jennifer Granholm,401,418,0.9262979626655579,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,California,496,506,0.9089613556861877,1,California,California
+13f482a2-0d59-4db9-b7ab-fa697162b853,Company,Tesla Inc.,567,577,0.9825869202613831,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Palo Alto,583,592,0.8047890663146973,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Texas,641,646,0.9477697610855103,1,Texas,Texas
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,Elon Musk,652,661,0.8415058851242065,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Company,Tesla,671,676,0.7622225880622864,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Company,General Electric,736,752,0.9313785433769226,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Boston,758,764,0.9090443849563599,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,New York,804,812,0.9045226573944092,1,New York City,New York City
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,Larry Culp,841,851,0.7549660801887512,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Company,NextEra Energy,914,928,0.9336749315261841,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Juno Beach,934,944,0.6851238012313843,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Florida,990,997,0.863917887210846,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Person,John Ketchum,1008,1020,0.7359457015991211,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Washington D.C.,1102,1117,0.8022674322128296,1,Washington D.C.,Washington D.C.
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,San Francisco,1178,1191,0.7951839566230774,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Boston,1196,1202,0.9224311113357544,0,,
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,California,1204,1214,0.9414327144622803,1,California,California
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Texas,1219,1224,0.9540225863456726,1,Texas,Texas
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,New York,1441,1449,0.8592900633811951,1,New York City,New York City
+13f482a2-0d59-4db9-b7ab-fa697162b853,Location,Chicago,1488,1495,0.7748922109603882,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Washington D.C.,44,59,0.7668077349662781,1,Washington D.C.,Washington D.C.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,Mike Johnson,83,95,0.8669382333755493,1,Mike Johnson,Mike Johnson
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,JD Vance,234,242,0.8836349248886108,1,JD Vance,JD Vance
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Washington,281,291,0.8387590646743774,1,Washington D.C.,Washington D.C.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,Miguel Cardona,385,399,0.8787487149238586,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,California,492,502,0.9065608382225037,1,California,California
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Microsoft Corporation,555,576,0.9878215193748474,1,Microsoft Corporation,Microsoft Corporation
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Redmond,582,589,0.7420915365219116,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Texas,644,649,0.9283813834190369,1,Texas,Texas
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,Satya Nadella,663,676,0.8462786078453064,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Microsoft,686,695,0.8454139232635498,1,Microsoft Corporation,Microsoft Corporation
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Apple Inc.,744,754,0.9846571087837219,1,Apple Inc.,Apple Inc.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Cupertino,760,769,0.8751625418663025,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,New York,811,819,0.9059308171272278,1,New York City,New York City
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,Tim Cook,836,844,0.849658191204071,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Apple,853,858,0.9283565282821655,1,Apple Inc.,Apple Inc.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Google,907,913,0.9833928942680359,1,Alphabet Inc.,Alphabet Inc.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Mountain View,919,932,0.8482835292816162,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Florida,982,989,0.8794358372688293,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Person,Sundar Pichai,1000,1013,0.8047621250152588,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Company,Google,1026,1032,0.9822057485580444,1,Alphabet Inc.,Alphabet Inc.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Washington D.C.,1095,1110,0.8048948645591736,1,Washington D.C.,Washington D.C.
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,San Francisco,1174,1187,0.8560987114906311,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Austin,1192,1198,0.906359851360321,0,,
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,California,1200,1210,0.9461485743522644,1,California,California
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Texas,1215,1220,0.9404707551002502,1,Texas,Texas
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,New York,1458,1466,0.8294292092323303,1,New York City,New York City
+8fb82aaf-c922-4512-9359-7da9d999b8bf,Location,Chicago,1505,1512,0.8128523826599121,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,Washington D.C.,45,60,0.6491122841835022,1,Washington D.C.,Washington D.C.
+08e6f75d-c9eb-441e-b605-3258174be4b6,Person,Mike Johnson,339,351,0.7372869253158569,1,Mike Johnson,Mike Johnson
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,Capitol Hill,671,683,0.7211799621582031,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Company,Apple Inc.,1072,1082,0.9762795567512512,1,Apple Inc.,Apple Inc.
+08e6f75d-c9eb-441e-b605-3258174be4b6,Person,Tim Cook,1095,1103,0.8707466721534729,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Company,Microsoft Corporation,1329,1350,0.9283267855644226,1,Microsoft Corporation,Microsoft Corporation
+08e6f75d-c9eb-441e-b605-3258174be4b6,Person,Satya Nadella,1431,1444,0.6873537302017212,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,Washington,1672,1682,0.728305459022522,1,Washington D.C.,Washington D.C.
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,California,1812,1822,0.9447730779647827,1,California,California
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,New York City,1827,1840,0.8544378876686096,1,New York City,New York City
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,California,1842,1852,0.944176197052002,1,California,California
+08e6f75d-c9eb-441e-b605-3258174be4b6,Person,Gavin Newsom,1862,1874,0.8220555186271667,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,Golden State,1916,1928,0.7736832499504089,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,Silicon Valley,1938,1952,0.8943637609481812,0,,
+08e6f75d-c9eb-441e-b605-3258174be4b6,Location,California,2096,2106,0.9060619473457336,1,California,California
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Washington D.C.,44,59,0.7886907458305359,1,Washington D.C.,Washington D.C.
+d047a981-5775-42b5-bb0e-867b474200eb,Person,Mike Johnson,84,96,0.877039909362793,1,Mike Johnson,Mike Johnson
+d047a981-5775-42b5-bb0e-867b474200eb,Person,JD Vance,243,251,0.8951939344406128,1,JD Vance,JD Vance
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Washington,306,316,0.826129674911499,1,Washington D.C.,Washington D.C.
+d047a981-5775-42b5-bb0e-867b474200eb,Person,Jennifer Granholm,406,423,0.9301537275314331,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,California,503,513,0.9083372354507446,1,California,California
+d047a981-5775-42b5-bb0e-867b474200eb,Company,Tesla Inc.,569,579,0.9800048470497131,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Palo Alto,585,594,0.8236637711524963,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Texas,640,645,0.9478756785392761,1,Texas,Texas
+d047a981-5775-42b5-bb0e-867b474200eb,Person,Elon Musk,651,660,0.8568692207336426,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Company,Tesla,670,675,0.770392119884491,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Company,Exxon Mobil,731,742,0.9246010184288025,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Houston,748,755,0.9273672699928284,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,New York,801,809,0.9075106978416443,1,New York City,New York City
+d047a981-5775-42b5-bb0e-867b474200eb,Person,Darren Woods,838,850,0.7602971792221069,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Company,NextEra Energy,911,925,0.929276704788208,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Juno Beach,931,941,0.6942662596702576,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Florida,984,991,0.870438277721405,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Person,John Ketchum,1002,1014,0.742480456829071,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Washington D.C.,1099,1114,0.778276801109314,1,Washington D.C.,Washington D.C.
+d047a981-5775-42b5-bb0e-867b474200eb,Location,San Francisco,1165,1178,0.786309540271759,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Houston,1183,1190,0.9376091361045837,0,,
+d047a981-5775-42b5-bb0e-867b474200eb,Location,California,1192,1202,0.9353192448616028,1,California,California
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Texas,1207,1212,0.9544669985771179,1,Texas,Texas
+d047a981-5775-42b5-bb0e-867b474200eb,Location,New York,1445,1453,0.8468804955482483,1,New York City,New York City
+d047a981-5775-42b5-bb0e-867b474200eb,Location,Chicago,1491,1498,0.7942752838134766,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Washington D.C.,44,59,0.8187737464904785,1,Washington D.C.,Washington D.C.
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,Mike Johnson,84,96,0.8862439393997192,1,Mike Johnson,Mike Johnson
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,JD Vance,236,244,0.8623839616775513,1,JD Vance,JD Vance
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Washington,292,302,0.8362281322479248,1,Washington D.C.,Washington D.C.
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,Lloyd Austin,389,401,0.8994492292404175,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,California,488,498,0.9106533527374268,1,California,California
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Microsoft Corporation,548,569,0.9876527786254883,1,Microsoft Corporation,Microsoft Corporation
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Texas,633,638,0.9455832242965698,1,Texas,Texas
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,Satya Nadella,644,657,0.853047251701355,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Microsoft,667,676,0.6503799557685852,1,Microsoft Corporation,Microsoft Corporation
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Lockheed Martin,731,746,0.9678699374198914,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Bethesda,752,760,0.631862998008728,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,New York,807,815,0.9219716787338257,1,New York City,New York City
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,Jim Taiclet,844,855,0.7246193885803223,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Cisco Systems,934,947,0.9802637696266174,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,San Jose,953,961,0.8314166069030762,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Florida,1004,1011,0.8929886817932129,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Person,Chuck Robbins,1022,1035,0.8123641610145569,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Company,Cisco,1048,1053,0.5505409836769104,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Washington D.C.,1101,1116,0.8055098056793213,1,Washington D.C.,Washington D.C.
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,San Francisco,1174,1187,0.8072982430458069,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Austin,1192,1198,0.692118763923645,0,,
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,California,1200,1210,0.9351537823677063,1,California,California
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Texas,1215,1220,0.9564517736434937,1,Texas,Texas
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,New York,1453,1461,0.8889265656471252,1,New York City,New York City
+c44e172a-4633-4a5e-a3ce-53f0268af102,Location,Chicago,1497,1504,0.8024408221244812,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Washington D.C.,45,60,0.7453516721725464,1,Washington D.C.,Washington D.C.
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Person,Mike Johnson,84,96,0.8912664651870728,1,Mike Johnson,Mike Johnson
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Person,JD Vance,250,258,0.877609372138977,1,JD Vance,JD Vance
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Washington,311,321,0.787074863910675,1,Washington D.C.,Washington D.C.
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Person,Pete Buttigieg,414,428,0.9230860471725464,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,California,508,518,0.9197788834571838,1,California,California
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Company,Bechtel Corporation,573,592,0.9716520309448242,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Reston,598,604,0.6451995968818665,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Texas,650,655,0.9494796395301819,1,Texas,Texas
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Company,AT&T,747,751,0.9791995882987976,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Dallas,757,763,0.9201405048370361,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,New York,806,814,0.885269820690155,1,New York City,New York City
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Person,John Stankey,843,855,0.6924924850463867,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Company,AT&T,864,868,0.9715096354484558,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Company,Union Pacific,920,933,0.9762808084487915,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Omaha,939,944,0.6889766454696655,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Florida,987,994,0.8981025218963623,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Person,Lance Fritz,1005,1016,0.7524099946022034,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Company,Union Pacific,1029,1042,0.9725580811500549,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Washington D.C.,1093,1108,0.7514587640762329,1,Washington D.C.,Washington D.C.
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,San Francisco,1166,1179,0.8019888997077942,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Dallas,1184,1190,0.9341409206390381,0,,
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,California,1192,1202,0.9481781721115112,1,California,California
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Texas,1207,1212,0.9606894850730896,1,Texas,Texas
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,New York,1443,1451,0.8578746318817139,1,New York City,New York City
+206b77b4-15c7-4335-bdc7-c5d74fdd9908,Location,Chicago,1488,1495,0.7799102663993835,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Washington D.C.,44,59,0.7893229722976685,1,Washington D.C.,Washington D.C.
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,Mike Johnson,84,96,0.8806900382041931,1,Mike Johnson,Mike Johnson
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,JD Vance,225,233,0.8871477246284485,1,JD Vance,JD Vance
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Washington,277,287,0.81418377161026,1,Washington D.C.,Washington D.C.
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,Xavier Becerra,380,394,0.9043328762054443,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,California,467,477,0.9073367118835449,1,California,California
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Company,UnitedHealth Group,537,555,0.9713010787963867,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Minnetonka,561,571,0.5501178503036499,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Texas,623,628,0.9432880878448486,1,Texas,Texas
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,Andrew Witty,634,646,0.7921717166900635,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Company,Pfizer,718,724,0.9760215878486633,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,New York,730,738,0.9267165660858154,1,New York City,New York City
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Florida,789,796,0.9040701985359192,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,Albert Bourla,825,838,0.7150257229804993,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Company,Pfizer,847,853,0.9676027894020081,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Company,Epic Systems,909,921,0.9517947435379028,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,New York,980,988,0.888892650604248,1,New York City,New York City
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Person,Judy Faulkner,999,1012,0.8183406591415405,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Washington D.C.,1087,1102,0.8056582808494568,1,Washington D.C.,Washington D.C.
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,San Francisco,1163,1176,0.826270580291748,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Miami,1181,1186,0.9075035452842712,0,,
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,California,1188,1198,0.9409648776054382,1,California,California
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Texas,1203,1208,0.9577966332435608,1,Texas,Texas
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,New York,1440,1448,0.8872717022895813,1,New York City,New York City
+e746aa84-fc88-4c4c-9ec5-bda42c79f905,Location,Chicago,1482,1489,0.7914155125617981,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Washington D.C.,46,61,0.756408154964447,1,Washington D.C.,Washington D.C.
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,Mike Johnson,86,98,0.8825164437294006,1,Mike Johnson,Mike Johnson
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,JD Vance,262,270,0.8923465609550476,1,JD Vance,JD Vance
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Washington,315,325,0.8219972252845764,1,Washington D.C.,Washington D.C.
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,Pete Buttigieg,420,434,0.9312841296195984,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,California,517,527,0.8936335444450378,1,California,California
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,Tesla Inc.,587,597,0.9821687340736389,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Palo Alto,603,612,0.7871074080467224,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Texas,667,672,0.9385052919387817,1,Texas,Texas
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,Elon Musk,678,687,0.841719925403595,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,Tesla,697,702,0.6518436670303345,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,Union Pacific,756,769,0.9138280749320984,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Omaha,775,780,0.7106698155403137,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Florida,826,833,0.883678138256073,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,Lance Fritz,862,873,0.7419672012329102,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,Union Pacific,882,895,0.9208200573921204,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,General Motors,946,960,0.9695901274681091,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Detroit,966,973,0.9369622468948364,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,New York,1017,1025,0.8913446664810181,1,New York City,New York City
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Person,Mary Barra,1036,1046,0.8243685364723206,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Company,GM,1059,1061,0.5154862403869629,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Washington D.C.,1111,1126,0.7702096104621887,1,Washington D.C.,Washington D.C.
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,San Francisco,1178,1191,0.7758705019950867,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Detroit,1196,1203,0.9322722554206848,0,,
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,California,1205,1215,0.9366272687911987,1,California,California
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Texas,1220,1225,0.9493564963340759,1,Texas,Texas
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,New York,1451,1459,0.840407133102417,1,New York City,New York City
+5c000415-96ff-48b6-a9ac-fcda2ea40c19,Location,Chicago,1490,1497,0.7891314625740051,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York City,49,62,0.9317843914031982,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Person,Mike Johnson,87,99,0.8920555710792542,1,Mike Johnson,Mike Johnson
+fadd6904-9b30-493e-9d30-342d60e15677,Person,JD Vance,228,236,0.8963858485221863,1,JD Vance,JD Vance
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York,287,295,0.5881177186965942,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Location,empire city,301,312,0.7769541144371033,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Person,Gina Raimondo,392,405,0.9361197352409363,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,empire city,470,481,0.8390597701072693,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,California,497,507,0.9132391214370728,1,California,California
+fadd6904-9b30-493e-9d30-342d60e15677,Company,Goldman Sachs,561,574,0.9145118594169617,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York,580,588,0.9356966018676758,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Texas,640,645,0.931740403175354,1,Texas,Texas
+fadd6904-9b30-493e-9d30-342d60e15677,Person,David Solomon,651,664,0.7570165991783142,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Company,Intel Corporation,728,745,0.962016761302948,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Santa Clara,751,762,0.7627953886985779,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Florida,812,819,0.8669593930244446,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Person,Pat Gelsinger,848,861,0.7304730415344238,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Company,Intel,870,875,0.7555990815162659,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Company,JPMorgan Chase,927,941,0.899761974811554,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York,947,955,0.9167503714561462,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Location,California,992,1002,0.93777996301651,1,California,California
+fadd6904-9b30-493e-9d30-342d60e15677,Person,Jamie Dimon,1013,1024,0.8116803765296936,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York City,1098,1111,0.8773869276046753,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Location,San Francisco,1165,1178,0.7764638066291809,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Austin,1183,1189,0.8838014006614685,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,California,1191,1201,0.9569844603538513,1,California,California
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Texas,1206,1211,0.9502362608909607,1,Texas,Texas
+fadd6904-9b30-493e-9d30-342d60e15677,Location,New York,1313,1321,0.7977286577224731,1,New York City,New York City
+fadd6904-9b30-493e-9d30-342d60e15677,Location,empire city,1468,1479,0.8701674342155457,0,,
+fadd6904-9b30-493e-9d30-342d60e15677,Location,Chicago,1512,1519,0.7837378978729248,0,,

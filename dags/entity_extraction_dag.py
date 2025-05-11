@@ -11,7 +11,6 @@ from datetime import datetime, timedelta
 import docker
 import tempfile
 import ast
-from docker import APIClient
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -66,42 +65,51 @@ with DAG(
                 text = doc['body_en']
                 logger.info(f"Processing document {i}/{len(documents)} (ID: {doc_id})")
                 logger.info(f"Document text length: {len(text)} characters")
-                
-                with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.txt') as tmp:
-                    tmp.write(text)
-                    tmp_path = tmp.name
 
-                try:
-                    logger.info(f"Running Docker container for document {doc_id}")
-                    container = client.containers.run(
-                        image='entity-extraction:latest',
-                        command=f'python /app/extract_entities.py {tmp_path}',
-                        volumes={os.path.abspath(tmp_path): {'bind': '/app/input.txt', 'mode': 'ro'}},
-                        detach=True
-                    )
+                # Create temporary files for input and output
+                with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.txt') as tmp_in, \
+                     tempfile.NamedTemporaryFile(mode='r', delete=False, suffix='.json') as tmp_out:
+                    tmp_in.write(text)
+                    tmp_in.flush()  # Ensure input is written to disk
+                    tmp_path_in = tmp_in.name
+                    tmp_path_out = tmp_out.name
+                    logger.info(f"Temporary input file: {tmp_path_in}, output file: {tmp_path_out}")
 
-                    # Wait for the container to finish
-                    container.wait()
+                    try:
+                        logger.info(f"Running Docker container for document {doc_id}")
+                        container = client.containers.run(
+                            image='entity-extraction:latest',
+                            command=f'python /app/extract_entities.py /app/input.txt /app/output.json',
+                            volumes={
+                                os.path.abspath(tmp_path_in): {'bind': '/app/input.txt', 'mode': 'ro'},
+                                os.path.abspath(tmp_path_out): {'bind': '/app/output.json', 'mode': 'rw'}
+                            },
+                            detach=True
+                        )
+                        container.wait()
+                        container.remove()
+                        logger.info(f"Container completed for document {doc_id}")
 
-                    # Read the output from the JSON file
-                    output_file = 'extracted_entities.json'
-                    if os.path.exists(output_file):
-                        with open(output_file, 'r', encoding='utf-8') as f:
-                            entities = json.load(f)
-                        logger.info(f"Extracted entities for document {doc_id}: {entities}")
-                    else:
-                        logger.error(f"Output file {output_file} not found for document {doc_id}")
-                    
-                    for entity in entities:
-                        entity['document_id'] = doc_id
-                    extracted_entities.extend(entities)
-                    logger.info(f"Successfully extracted {len(entities)} entities from document {doc_id}")
-                except Exception as e:
-                    logger.error(f"Error processing document {doc_id}: {str(e)}")
-                    raise
-                finally:
-                    # Clean up the temporary file
-                    os.unlink(tmp_path)
+                        # Read output JSON file
+                        if os.path.exists(tmp_path_out) and os.path.getsize(tmp_path_out) > 0:
+                            with open(tmp_path_out, 'r', encoding='utf-8') as f:
+                                entities = json.load(f)
+                            logger.info(f"Extracted {len(entities)} entities for document {doc_id}: {entities}")
+                        else:
+                            logger.warning(f"Output file {tmp_path_out} is empty or missing for document {doc_id}")
+                            entities = []
+
+                        for entity in entities:
+                            entity['document_id'] = doc_id
+                        extracted_entities.extend(entities)
+                        logger.info(f"Successfully extracted {len(entities)} entities from document {doc_id}")
+                    except Exception as e:
+                        logger.error(f"Error processing document {doc_id}: {str(e)}")
+                        raise
+                    finally:
+                        os.unlink(tmp_path_in)
+                        os.unlink(tmp_path_out)
+                        logger.info(f"Cleaned up temporary files for document {doc_id}")
 
             logger.info(f"Completed entity extraction. Total entities extracted: {len(extracted_entities)}")
             if extracted_entities:

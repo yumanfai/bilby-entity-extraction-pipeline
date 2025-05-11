@@ -42,24 +42,6 @@ def extract_entities(
         
     Returns:
         A list of dictionaries, each containing the text and start and end indices of an extracted entity.
-
-    Example Usage:
-    ```
-        res = extract_entities(model, text, labels, threshold)
-    ```
-    Example Output:
-    ```
-        [
-            {
-                'start': 5,
-                'end': 40,
-                'text': 'Cristiano Ronaldo dos Santos Aveiro',
-                'label': 'Person',
-                'score': 0.9360320568084717
-            },
-                ...
-        ]
-    ```
     """
     if labels is None:
         labels = ["Person", "Company", "Location"]
@@ -75,11 +57,12 @@ def extract_entities(
 def main():
     """Main function to process input text and output entities."""
     try:
-        if len(sys.argv) != 2:
-            logger.error("Usage: python extract_entities.py <input_file>")
+        if len(sys.argv) != 3:
+            logger.error("Usage: python extract_entities.py <input_file> <output_file>")
             sys.exit(1)
 
         input_file = sys.argv[1]
+        output_file = sys.argv[2]
         logger.info(f"Reading input file: {input_file}")
         
         if not os.path.exists(input_file):
@@ -93,8 +76,7 @@ def main():
         model = load_gliner_model()
         entities = extract_entities(model, text)
         
-        # Output entities to a JSON file
-        output_file = 'extracted_entities.json'
+        # Write entities to output JSON file
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(entities, f, ensure_ascii=False, indent=4)
         logger.info(f"Entities written to {output_file}")
