@@ -1,0 +1,6 @@
+gliner==0.2.13
+pandas==2.2.3
+docker==7.1.0
+apache-airflow==2.8.1
+apache-airflow-providers-docker==3.8.0
+flask-session==0.8.0
