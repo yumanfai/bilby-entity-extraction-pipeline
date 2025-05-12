@@ -151,7 +151,7 @@ with DAG(
                         # to be replaced with entity_id from actual SoT entities database
                         matched_entity_id = row['name']
                         matched_entity_name = row['name']
-                        logger.info(f"Matched entity '{entity_text}' with '{matched_entity_name}'")
+                        logger.debug(f"Matched entity '{entity_text}' with '{matched_entity_name}'")
                         break
 
                 matched_entities.append({
