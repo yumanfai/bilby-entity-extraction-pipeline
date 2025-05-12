@@ -1,6 +1,5 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
 from airflow.utils.dates import days_ago
 import pandas as pd
 import sqlite3
@@ -31,7 +30,6 @@ with DAG(
     'entity_extraction_pipeline',
     default_args=default_args,
     description='Entity extraction and matching pipeline',
-    schedule_interval=timedelta(days=1),
     start_date=days_ago(1),
     catchup=False,
 ) as dag:
@@ -64,7 +62,7 @@ with DAG(
                 doc_id = doc['uuid']
                 text = doc['body_en']
                 logger.info(f"Processing document {i}/{len(documents)} (ID: {doc_id})")
-                logger.info(f"Document text length: {len(text)} characters")
+                logger.debug(f"Document text length: {len(text)} characters")
 
                 # Create temporary files for input and output
                 with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.txt') as tmp_in, \
@@ -73,7 +71,7 @@ with DAG(
                     tmp_in.flush()  # Ensure input is written to disk
                     tmp_path_in = tmp_in.name
                     tmp_path_out = tmp_out.name
-                    logger.info(f"Temporary input file: {tmp_path_in}, output file: {tmp_path_out}")
+                    logger.debug(f"Temporary input file: {tmp_path_in}, output file: {tmp_path_out}")
 
                     try:
                         logger.info(f"Running Docker container for document {doc_id}")
@@ -94,7 +92,7 @@ with DAG(
                         if os.path.exists(tmp_path_out) and os.path.getsize(tmp_path_out) > 0:
                             with open(tmp_path_out, 'r', encoding='utf-8') as f:
                                 entities = json.load(f)
-                            logger.info(f"Extracted {len(entities)} entities for document {doc_id}: {entities}")
+                            logger.debug(f"Extracted {len(entities)} entities for document {doc_id}: {entities}")
                         else:
                             logger.warning(f"Output file {tmp_path_out} is empty or missing for document {doc_id}")
                             entities = []
@@ -109,13 +107,13 @@ with DAG(
                     finally:
                         os.unlink(tmp_path_in)
                         os.unlink(tmp_path_out)
-                        logger.info(f"Cleaned up temporary files for document {doc_id}")
+                        logger.debug(f"Cleaned up temporary files for document {doc_id}")
 
             logger.info(f"Completed entity extraction. Total entities extracted: {len(extracted_entities)}")
             if extracted_entities:
-                logger.info("Sample of extracted entities:")
+                logger.debug("Sample of extracted entities:")
                 for entity in extracted_entities[:5]:  # Show first 5 entities
-                    logger.info(f"Entity: {entity['text']} (type: {entity['label']})")
+                    logger.debug(f"Entity: {entity['text']} (type: {entity['label']})")
             kwargs['ti'].xcom_push(key='extracted_entities', value=extracted_entities)
         except Exception as e:
             logger.error(f"Error in entity extraction: {str(e)}")
@@ -135,14 +133,6 @@ with DAG(
             logger.info(f"Number of alias entries loaded: {len(aliases_df)}")
             
             aliases_df['aliases'] = aliases_df['aliases'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) and x.strip() else [])
-            
-            # Debug: Print unique entity types in extracted entities
-            extracted_types = set(e['label'] for e in extracted_entities)
-            logger.info(f"Entity types in extracted entities: {extracted_types}")
-            
-            # Debug: Print unique entity types in aliases
-            alias_types = set(aliases_df['entity_type'].unique())
-            logger.info(f"Entity types in aliases: {alias_types}")
 
             matched_entities = []
             for entity in extracted_entities:
@@ -153,12 +143,13 @@ with DAG(
                 matched_entity_name = None
 
                 # Debug: Log the entity being processed
-                logger.info(f"Processing entity: {entity_text} (type: {entity_type})")
+                logger.debug(f"Processing entity: {entity_text} (type: {entity_type})")
 
                 for _, row in aliases_df[aliases_df['entity_type'] == entity_type].iterrows():
                     if entity_text == row['name'] or entity_text in row['aliases']:
                         matched = True
-                        matched_entity_id = row.get('entity_id', row['name'])
+                        # to be replaced with entity_id from actual SoT entities database
+                        matched_entity_id = row['name']
                         matched_entity_name = row['name']
                         logger.info(f"Matched entity '{entity_text}' with '{matched_entity_name}'")
                         break
