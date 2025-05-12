@@ -11,38 +11,28 @@ This repository implements an Airflow-based entity extraction and matching pipel
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yumanfai/bilby-entity-extraction-pipeline.git
    cd entity-extraction-pipeline
    ```
 
 2. **Set Up Environment**:
-   Copy the example environment file and set `AIRFLOW_HOME`:
+   Set `AIRFLOW_HOME` to environment file:
    ```bash
-   cp .env.example .env
    echo "AIRFLOW_HOME=$(pwd)/" >> .env
    ```
 
-3. **Install Dependencies**:
-   ```bash
-   uv sync
-   ```
-
-4. **Start Airflow**:
+3. **Start Airflow**:
    ```bash
    uv run --env-file .env airflow standalone
    ```
    - Access the Airflow webserver at `http://localhost:8080`.
    - Credentials are displayed in the terminal and saved in `standalone_admin_password.txt`.
 
-5. **Ensure Data Files**:
-   - Place `data/documents.csv` and `data/entity_aliases.csv` in the `data/` directory.
-   - These files are assumed to be provided as per the challenge.
-
-6. **Run the DAG**:
+4. **Run the DAG**:
    - In the Airflow webserver, enable and trigger the `entity_extraction_pipeline` DAG.
    - Monitor logs for progress and errors.
 
-7. **(Optional) Export SQLite Database to CSV**:
+5. **(Optional) Export SQLite Database to CSV**:
    - To generate a sample CSV output for the challenge deliverables, run:
      ```bash
      python scripts/export_to_csv.py
